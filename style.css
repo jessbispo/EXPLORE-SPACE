@@ -1,0 +1,73 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20vh;
+}
+
+#imagemCabecalho {
+    height: 10vh;
+}
+
+.corpoPrincipal{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+}
+
+
+
+#listaCabecalho {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.imagemDivisoria {
+    height: 60%;
+    width: 50%;
+ }
+
+#imagemPrincipal {
+    display: flex;
+    justify-content: center;
+    height: 60%;
+    width: 80%;
+}
+
+#textoDivisoria {
+    
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    width: 30%;
+    height: 80%;
+    padding: 40px;
+}
+
+#tituloPrincipal {
+    font-size: 25px;
+}
+
+#textoPrincipal {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+
+}
+
+#botaoPrincipal {
+    display: flex;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 1;
+    left: 30%;
+    right: 30%;
+    margin: 10% 0 0 0;
+}
+#img {
+    height: 20vh;
+}

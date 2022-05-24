@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>APOD</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img id="imagemCabecalho" src="nasalogo.jpg" alt="logo"">
+        <ul id="listaCabecalho">
+            <li>HOME</li>
+            <li>CONTACT US</li>
+            <li>ABOUT US</li>
+        </ul>
+    </header>
+    <main>
+        <section class="titulo">
+           <h1>Astronomy Picture of the Day</h1> 
+        </section>
+        <section class="data">
+            <input type="date" class="dataDesejada">
+            <button class="btn">_Discover the cosmos!</button> 
+        </section>
+        <section class="blocoDeImagem">
+            <p id="img">imagem</p>
+        </section>
+        <section class="blocoDeExplicacao">
+            <p> EXPLANATION: </p>
+            <p id="explicacao"> explanation here</p>
+        </section>
+    </main>
+    <footer class="rodape">
+        <p>DEVELOPED BY JESSICA BISPO</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+</html>
