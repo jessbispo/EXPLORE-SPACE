@@ -218,6 +218,15 @@ li {
     margin: 5% 0 0 0;
 }
 
+@media screen and (max-device-width: 450px) {
+
+    #botaoPrincipal {
+        margin: 80px 0 0 0;
+        height: 40%;
+    }
+}
+
+
 @media screen and (max-device-width: 1200px) {
 
     .cabecalho {
