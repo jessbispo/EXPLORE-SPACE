@@ -70,7 +70,7 @@ li {
     display: flex;
     justify-content: center;
     font-size: 20px;
-    height: 30vh;
+    height: 20vh;
 
 }
 
@@ -195,13 +195,14 @@ li {
     display: flex;
     justify-content: center;
     width: 80%;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 }
 
 #explicacao {
     display: flex;
     justify-content: center;
+    font-size: 20px;
     width: 80%;
 
 }
@@ -264,7 +265,7 @@ li {
         display: flex;
         justify-content: center;
         height: 80%;
-        width: 80%;
+        width: 100%;
     }
 
     #tituloPrincipal {
@@ -276,13 +277,13 @@ li {
 
     #textoPrincipal {
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         font-size: 20px;
         height: 20%;
     }
 
     #botaoPrincipal {
-        margin: 20px 0 0 0;
+        margin: 80px 0 0 0;
         height: 20%;
     }
 
@@ -291,7 +292,7 @@ li {
         justify-content: center;
         font-size: 15px;
         font-weight: bold;
-        position: absolute;
+        position: fixed;
         bottom: 1;
         
    }
@@ -350,72 +351,3 @@ li {
     }
 }
 
-/*@media screen and (min-width: 501px) and (max-device-width: 1200px) {
-
-    #corpo {
-        
-        height: 150vh;
-        
-        margin: 0px 0px; 
-        border-left: 0;
-        border-right: 0; 
-    }
-
-    .corpoPrincipal{
-    
-        margin: 0px 0px; 
-        border-left: 0;
-        border-right: 0; 
-        
-    }
-
-    #apodDivisoria {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .blocoDeImagem {
-        display: flex;
-        justify-content: center;
-        padding: 30px 0 0px 0px;
-        margin: 0px;
-        width: 100%;
-        height: 40%;
-    }
-    
-    #img {
-        display: flex;
-        justify-content: center;
-        width: 80%;
-        height: 80%;
-    }
-
-    .blocoDeExplicacao {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0px 40px;
-        height: 80%;
-        width: 100%;
-        
-    }
-    
-    #paragrafoExplicacao {
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        font-weight: bold;
-        font-size: 30px;
-    }
-
-    #explicacao {
-        display: flex;
-        justify-content: center;
-        font-size: 25px;
-        
-        padding: 0 0px;
-        height: 20vh;
-        width: 100%;
-        
-    }
-}

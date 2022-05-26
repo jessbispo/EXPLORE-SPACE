@@ -9,9 +9,11 @@ function buscarData() {
     let dataDesejada = $(".dataDesejada").val()
 
     
-    $.get({
+    $.ajax({
+
         url: `https://api.nasa.gov/planetary/apod?api_key=5lVIJbkSYci40KMD082vyIGkrqTfrJCHGWptg70H&date=${dataDesejada}`,
         type: `GET`,
+
         success: function(response){ 
     
             $("#img").html(`<img id="img" src="${response.hdurl}">`),
